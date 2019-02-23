@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue_app</title>
+    <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+
+<div id="app" class="Container">
+    {{ pic }}
+
+    <div class=Grid-cell>
+        <div class="Demo Demo--spaced">
+            <div class="Media">
+                <div>
+                    <img class="Media-figure Image" @click="laugh"
+                         :src="pic" alt=Kitten>
+                </div>
+                <div class=Media-body>
+                    <a :href="url" target="_blank"><small>percy</small></a>
+
+                    <p>Phasellus vel felis purus. Aliquam consequat pellentesque dui, non mollis erat dictum sit
+                        amet. Curabitur non quam dictum, consectetur arcu in, vehicula justo. Donec tortor
+                        massa, eleifend nec viverra in, aliquet at eros. Mauris laoreet condimentum mauris, non
+                        tempor massa fermentum ut. Integer gravida pharetra cursus. Nunc in suscipit nunc.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="Container">
+    <div class=Grid-cell>
+        <div class="Demo Demo--spaced">
+            <div class="Media">
+                <img class="Media-figure Image"
+                     src='images/kitten.jpg' alt=Kitten>
+                <div class=Media-body>
+                    <h3 class=Media-title>顺序媒体对象</h3>
+                    <p>Phasellus vel felis purus. Aliquam consequat pellentesque dui, non mollis erat dictum sit
+                        amet. Curabitur non quam dictum, consectetur arcu in, vehicula justo. Donec tortor
+                        massa, eleifend nec viverra in, aliquet at eros. Mauris laoreet condimentum mauris, non
+                        tempor massa fermentum ut. Integer gravida pharetra cursus. Nunc in suscipit nunc.</p>
+                    <div>
+                        <img class="Media-figure Image" src="images/kitten.jpg" alt=Kitten>
+                        <img class="Media-figure Image" src='images/kitten.jpg' alt=Kitten>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+<script src="vue.js"></script>
+<script src="app.js"></script>
+</html>

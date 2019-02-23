@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<style>
+.red {
+  fill: red;
+}
+
+<!-- fill:填充，stroke:描边 -->
+.fancy {
+  fill: none;
+  stroke: black;
+  stroke-width: 3pt;
+}
+</style>
+<body>
+<!-- svg相当于画布 -->
+<!-- viewBox的使用-->
+<svg width="100" height="100" viewBox="50 50 50 50">
+    <circle id="mycircle" cx="50" cy="50" r="50"/>
+</svg>
+<svg width="100" height="100" viewBox="0 0 50 50">
+    <circle id="mycircle" cx="50" cy="50" r="50"/>
+</svg>
+
+<!-- circle, 圆 -->
+<svg width="300" height="180">
+    <circle cx="30" cy="50" r="25"/>
+    <circle cx="90" cy="50" r="25" class="red"/>
+    <circle cx="150" cy="50" r="25" class="fancy"/>
+</svg>
+
+<!-- line， 线段-->
+<svg width="300" height="180">
+    <line x1="0" y1="0" x2="200" y2="20" style="stroke:rgb(0,0,0);stroke-width:5"/>
+</svg>
+
+<!-- polyline, 折线 -->
+<svg width="300" height="180">
+    <polyline points="3,3 30,28 3,53" fill="none" stroke="black"/>
+</svg>
+
+<!-- rect, 矩形 -->
+<svg width="300" height="180">
+    <rect x="0" y="0" height="100" width="200" style="stroke: #70d5dd; fill: #dd524b"/>
+</svg>
+
+<!-- cllipse， 椭圆 -->
+<svg width="300" height="180">
+  <ellipse cx="60" cy="60" ry="40" rx="20" stroke="black" stroke-width="5" fill="silver"/>
+</svg>
+
+<!-- polygon，多边形-->
+<svg width="300" height="180">
+  <polygon fill="green" stroke="orange" stroke-width="1" points="0,0 100,0 100,100 0,100 0,0"/>
+</svg>
+
+<!-- path，绘制路径-->
+<svg width="300" height="180">
+<path d="
+  M 18,3
+  L 46,3
+  L 46,40
+  L 61,40
+  L 32,68
+  L 3,40
+  L 18,40
+  Z
+"></path>
+</svg>
+
+<!-- text， 文本-->
+<svg width="300" height="180">
+  <text x="50" y="25">Hello World</text>
+</svg>
+
+<!-- use, 复用标签-->
+<svg viewBox="0 0 30 10" xmlns="http://www.w3.org/2000/svg">
+  <circle id="myCircle" cx="5" cy="5" r="1"/>
+
+  <use href="#myCircle" x="10" y="0" fill="blue" />
+  <use href="#myCircle" x="20" y="0" fill="white" stroke="blue" />
+</svg>
+
+<!-- g多个标签合成一组，方便复用-->
+<svg width="300" height="100">
+  <g id="myCircle">
+    <text x="25" y="20">圆形</text>
+    <circle cx="50" cy="50" r="20"/>
+  </g>
+
+  <use href="#myCircle" x="100" y="0" fill="blue" />
+  <use href="#myCircle" x="200" y="0" fill="white" stroke="blue" />
+</svg>
+</body>
+</html>

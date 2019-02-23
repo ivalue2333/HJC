@@ -1,0 +1,50 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.Container {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+
+
+.Grid-cell {
+  flex: 1;
+}
+
+.Demo {
+  width: 100%;
+  padding: .8em 1em 0;
+  background: hsla(31, 15%, 50%, 0.1);
+  border-radius: 3px;
+}
+
+.Demo--spaced {
+  margin-bottom: var(--space);
+}
+
+.Media {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1em;
+}
+
+.Media-figure {
+  margin-right: 1em;
+}
+
+
+.Media-body {
+  flex: 1;
+}
+
+.Image {
+  display: inline-block;
+  width: 120px;
+  height: auto;
+  margin-top: 0.2em;
+}
+
+
