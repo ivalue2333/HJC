@@ -266,7 +266,7 @@ blockquote {
 			&:nth-child(odd) {
 
 				.timeline-content {
-
+					
 					&::after {
 						content: '';
 						position: absolute;
@@ -283,5 +283,5 @@ blockquote {
 			}
 		}
 	}
-
+	
 }
