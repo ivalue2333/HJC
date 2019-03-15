@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VUE</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+
+<ul id="example-2">
+    <li v-for="(item, index) in items">
+        {{ parentMessage }} - {{ index }} - {{ item.message }}
+    </li>
+</ul>
+
+<ul id="v-for-object" class="demo">
+    <div v-for="(value, key) in object">
+        {{ key }}: {{ value }}
+    </div>
+</ul>
+
+<ul id="array" class="demo">
+    <ol v-for="(value, key) in items">
+        {{ key }} : {{ value }}
+    </ol>
+    <div>
+        <span v-for="n in 10">{{ n }} </span>
+    </div>
+
+</ul>
+
+<!--
+注意这里的 is="todo-item" 属性。这种做法在使用 DOM 模板时是十分必要的，
+因为在 <ul> 元素内只有 <li> 元素会被看作有效内容。
+这样做实现的效果与 <todo-item> 相同，但是可以避开一些潜在的浏览器解析错误。
+-->
+<div id="todo-list-example">
+  <form v-on:submit.prevent="addNewTodo">
+    <label for="new-todo">Add a todo</label>
+    <input
+      v-model="newTodoText"
+      id="new-todo"
+      placeholder="E.g. Feed the cat"
+    >
+    <button>Add</button>
+  </form>
+  <ul>
+    <li
+      is="todo-item"
+      v-for="(todo, index) in todos"
+      v-bind:key="todo.id"
+      v-bind:title="todo.title"
+      v-on:remove="todos.splice(index, 1)"
+    ></li>
+  </ul>
+</div>
+
+
+</body>
+<script src="app.js"></script>
+</html>
+

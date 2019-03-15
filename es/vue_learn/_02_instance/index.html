@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VUE</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+
+
+<div id="app">
+  {{ message }}
+</div>
+
+<!-- 完整语法 -->
+<a v-bind:href="url">...</a>
+
+<!-- 缩写 -->
+<a :href="url">...</a>
+
+<!-- 完整语法 -->
+<a v-on:click="doSomething">...</a>
+
+<!-- 缩写 -->
+<a @click="doSomething">...</a>
+
+
+
+</body>
+<script src="app.js"></script>
+</html>

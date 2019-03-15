@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VUE</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+
+<div id="components-demo">
+    <button-counter></button-counter>
+    <button-counter></button-counter>
+    <button-counter></button-counter>
+</div>
+
+<div id="blog-posts-events-demo">
+    <div :style="{ fontSize: postFontSize + 'em' }">
+        <blog-post
+                v-for="post in posts"
+                v-bind:key="post.id"
+                v-bind:post="post"
+                v-on:enlarge-text="postFontSize += $event"
+        ></blog-post>
+    </div>
+</div>
+
+
+</body>
+<script src="app.js"></script>
+</html>
+

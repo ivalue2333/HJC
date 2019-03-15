@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+    <style>
+div
+{
+	width:100px;
+	height:100px;
+	background:red;
+	position:relative;
+	animation-name:myfirst;
+	animation-duration:5s;
+	animation-timing-function:linear;
+	animation-delay:2s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	animation-play-state:running;
+	/* Safari and Chrome: */
+	-webkit-animation-name:myfirst;
+	-webkit-animation-duration:5s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-play-state:running;
+}
+
+@keyframes myfirst
+{
+	0%   {background:red; transform: rotate(0deg)}
+	25%  {background:yellow; transform: rotate(90deg)}
+	50%  {background:blue; transform: rotate(180deg)}
+	75%  {background:green; transform: rotate(270deg)}
+	100% {background:red; transform: rotate(360deg)}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+	0%   {background:red; transform: rotate(0deg)}
+	25%  {background:yellow; transform: rotate(90deg)}
+	50%  {background:blue; transform: rotate(180deg)}
+	75%  {background:green; transform: rotate(270deg)}
+	100% {background:red; transform: rotate(360deg)}
+}
+
+    </style>
+</head>
+<body>
+
+<p><b>注意:</b> 该实例在 Internet Explorer 9 及更早 IE 版本是无效的。</p>
+
+<div></div>
+
+</body>
+</html>
