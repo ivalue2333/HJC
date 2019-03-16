@@ -2,48 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f2af3f-c2b5-4527-87be-155aa9fc051d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css3/animation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css3/animation_rate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css3/animation_ratote.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css3/book.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css3/breadcrumb.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css3/card.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css3/pic_modal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css3/responsive_pic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css3/transition.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css3/transition_rotate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/axios_learn/app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/axios_learn/refer.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/axios_learn/static/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/axios_learn/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/vue_learn/_01_base/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/vue_learn/_02_instance/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/vue_learn/_02_instance/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/vue_learn/_03_condition/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/vue_learn/_03_condition/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/vue_learn/_04_for/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/vue_learn/_04_for/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/vue_learn/_06_form/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/vue_learn/_06_form/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/vue_learn/_07_component/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/vue_learn/_07_component/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/webpack_learn/dist_first/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/webpack_learn/dist_first/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/webpack_learn/dist_first/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/es/webpack_learn/refer.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5/bs4/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5/bs4/first.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/es/vue/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/es/vue/images/cat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/es/vue/images/cat1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/es/vue/images/kitten.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/es/vue/images/pineapple.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/es/vue/vue.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/es/index.html" afterPath="$PROJECT_DIR$/es/time/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/es/time.js" afterPath="$PROJECT_DIR$/es/time/time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css3/media/media-1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css3/media/media-2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/css3/media/media-3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5/bs4/bootstrap.4.1.0.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5/bs4/bootstrap.4.1.0.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/h5/bs4/base.html" afterPath="$PROJECT_DIR$/h5/bs4/base.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,18 +22,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="breadcrumb.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/css3/breadcrumb.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -87,7 +41,17 @@
       <find>container</find>
       <find>=</find>
       <find>fakeimg</find>
+      <find>#####</find>
+      <find>media</find>
+      <find>collapsibleNavbar</find>
+      <find>collapse</find>
+      <find>navbar-collapse</find>
+      <find>row</find>
+      <find>.row</find>
     </findStrings>
+    <replaceStrings>
+      <replace>####</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -95,13 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/timeline/second/index.html" />
-        <option value="$PROJECT_DIR$/demo/timeline/third/timeline.css" />
-        <option value="$PROJECT_DIR$/demo/timeline/third/index.html" />
-        <option value="$PROJECT_DIR$/demo/timeline/first/timeline.js" />
-        <option value="$PROJECT_DIR$/demo/timeline/four/index.html" />
-        <option value="$PROJECT_DIR$/demo/timeline/refers.txt" />
-        <option value="$PROJECT_DIR$/demo/timeline/first/timeline.css" />
         <option value="$PROJECT_DIR$/demo/timeline/first/index.html" />
         <option value="$PROJECT_DIR$/es/index.html" />
         <option value="$PROJECT_DIR$/es/time.js" />
@@ -146,6 +103,13 @@
         <option value="$PROJECT_DIR$/css/css3/responsive_pic.html" />
         <option value="$PROJECT_DIR$/css/css3/pic_modal.html" />
         <option value="$PROJECT_DIR$/css/css3/breadcrumb.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/css/css3/media-1.html" />
+        <option value="$PROJECT_DIR$/css/css3/media/media-2.html" />
+        <option value="$PROJECT_DIR$/css/css3/media/media-1.html" />
+        <option value="$PROJECT_DIR$/css/css3/media/media-3.html" />
+        <option value="$PROJECT_DIR$/h5/bs4/base.html" />
+        <option value="$PROJECT_DIR$/h5/bs4/bootstrap.4.1.0.css" />
       </list>
     </option>
   </component>
@@ -174,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,27 +151,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HJC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HJC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -216,18 +162,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\viruser.v-desktop\Desktop\python\sci\HJC\es\axios_learn\static" />
-      <recent name="C:\Users\viruser.v-desktop\Desktop\python\sci\HJC\es\axios_learn\templates" />
-      <recent name="C:\Users\viruser.v-desktop\Desktop\python\sci\HJC\es\time" />
-      <recent name="C:\Users\viruser.v-desktop\Desktop\python\sci\HJC\demo\timeline\four" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\viruser.v-desktop\Desktop\python\sci\HJC\h5\bs4" />
       <recent name="C:\Users\viruser.v-desktop\Desktop\python\sci\HJC\es\webpack_learn" />
       <recent name="C:\Users\viruser.v-desktop\Desktop\python\sci\HJC\es\axios_learn" />
       <recent name="C:\Users\viruser.v-desktop\Desktop\python\sci\HJC\es\vue_learn\_07_component" />
       <recent name="C:\Users\viruser.v-desktop\Desktop\python\sci\HJC\es\vue_learn" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\viruser.v-desktop\Desktop\python\sci\HJC\css\css3\media" />
+      <recent name="C:\Users\viruser.v-desktop\Desktop\python\sci\HJC\es\axios_learn\static" />
+      <recent name="C:\Users\viruser.v-desktop\Desktop\python\sci\HJC\es\axios_learn\templates" />
+      <recent name="C:\Users\viruser.v-desktop\Desktop\python\sci\HJC\es\time" />
+      <recent name="C:\Users\viruser.v-desktop\Desktop\python\sci\HJC\demo\timeline\four" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -423,9 +370,10 @@
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18862912" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18862912" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -439,7 +387,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -484,42 +431,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/timeline/first/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/timeline/second/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/timeline/third/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/timeline/four/timeline-V2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/timeline/first/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/h5/test.html" />
     <entry file="file://$PROJECT_DIR$/h5/demo.html" />
     <entry file="file://$PROJECT_DIR$/es/time/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -657,13 +568,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/es/vue/demo.html" />
-    <entry file="file://$PROJECT_DIR$/demo/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/es/vue_learn/_07_component/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -696,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,61 +607,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h5/bs4/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1750">
-          <caret line="70" column="28" lean-forward="false" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/h5/bs4/first.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/css3/border-radius.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/1.txt" />
+    <entry file="file://$PROJECT_DIR$/css/css3/border-radius.html" />
     <entry file="file://$PROJECT_DIR$/css/css3/card.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="42" column="7" lean-forward="false" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/css3/book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,14 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="694">
           <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/css3/animation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="36" column="7" lean-forward="false" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -815,25 +665,119 @@
         <state relative-caret-position="244">
           <caret line="86" column="67" lean-forward="true" selection-start-line="86" selection-start-column="67" selection-end-line="86" selection-end-column="67" />
           <folding>
-            <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/css3/pic_modal.html">
+    <entry file="file://$PROJECT_DIR$/css/css3/book.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1019">
-          <caret line="138" column="7" lean-forward="false" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
+        <state relative-caret-position="775">
+          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css3/animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="36" column="7" lean-forward="false" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css3/breadcrumb.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="500">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css3/pic_modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="138" column="7" lean-forward="false" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css3/media/media-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css3/media/media-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css3/media/media-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="100" column="13" lean-forward="false" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5/bs4/bootstrap.4.1.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5/bs4/bootstrap.4.1.0.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="5507" column="68" lean-forward="false" selection-start-line="5507" selection-start-column="63" selection-end-line="5507" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5/bs4/first.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1156">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5/bs4/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
