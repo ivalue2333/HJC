@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>fullPage.js — 自动滚动演示</title>
+    <link rel="stylesheet" href="css/fullpage.css">
+    <style>
+.section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
+
+    </style>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/fullpage.js"></script>
+</head>
+
+<body>
+
+
+<div id="percy">
+    <div class="section">
+        <div class="slide"><h3>第二屏的第一屏</h3></div>
+        <div class="slide"><h3>第二屏的第二屏</h3></div>
+        <div class="slide"><h3>第二屏的第三屏</h3></div>
+    </div>
+</div>
+
+<script>
+$(function(){
+    $('#percy').fullpage({
+        sectionsColor : ['#1bbc9b'],
+        loopBottom: true
+    });
+
+    setInterval(function(){
+        fullpage_api.moveSlideRight();
+    }, 2000);
+});
+
+</script>
+</body>
+</html>

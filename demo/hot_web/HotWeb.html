@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HotWeb</title>
+    <style>
+        #content {
+            background-color: #FFEFD5;
+            position: absolute;
+            top: 20%;
+            left: 10%;
+            right: 10%;
+        }
+
+        .wrap {
+            display: inline-block;
+            flex: 1;
+            width: 300px;
+            height: 300px;
+        }
+
+        .web-box {
+            display: inline-block;
+            text-align: center;
+            font: 20px "Microsoft Yahei"; color: #fff;
+            flex: 1;
+            width: 200px;
+            margin-top: 10px;
+            margin-right: 10px;
+            border: 1px solid hsl(0, 0%, 85%);
+        }
+    </style>
+    <link rel="stylesheet" href="star.css">
+</head>
+<body id="content">
+
+<!-- onclick先于href -->
+<div class="wrap">
+    <div class="web-box"><a href="https://www.google.com" onclick="web_on_click()">谷歌</a></div>
+    <div class="web-box"><a href="https://vue-js.com/">Vue</a></div>
+    <div class="web-box"><a href="https://bookset.me/">book set</a></div>
+</div>
+
+
+
+<script src="star.js"></script>
+<script src="hot_web.js"></script>
+</body>
+</html>
