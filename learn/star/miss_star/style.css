@@ -1,0 +1,128 @@
+body {
+  background-color: #484BA0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.ground {
+  background-color: darkgrey;
+  position: absolute;
+  width: 100vw;
+  height: 8vw;
+  bottom: 0;
+  border-radius: 50% / 100%;
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.moon {
+  background-color: #fff;
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  top: 4vw;
+  left: 15vw;
+  border-radius: 50%;
+}
+
+@keyframes star--1 {
+  0% {
+    opacity: 1;
+    transform: translateY(-140px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(400px);
+  }
+}
+@keyframes star--2 {
+  0% {
+    opacity: 1;
+    transform: translateY(-140px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(350px);
+  }
+}
+@keyframes star--1 {
+  0% {
+    opacity: 1;
+    transform: translateY(-140px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(300px);
+  }
+}
+.star.star--1 {
+  animation: star--1 ease-in-out 8s infinite;
+  background-color: #E8B142;
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  top: 5vw;
+  right: 40vw;
+}
+.star.star--2 {
+  animation: star--2 ease-in-out 9s infinite;
+  background-color: #E8B142;
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  top: 15vw;
+  right: 17.5vw;
+}
+.star.star--3 {
+  animation: star--1 ease-in-out 6s infinite;
+  background-color: #E8B142;
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  top: 5vw;
+  right: 28vw;
+}
+.star.star--4 {
+  animation: star--1 ease-in-out 8s -4s infinite;
+  background-color: #E8B142;
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  top: 5vw;
+  right: 40vw;
+}
+.star.star--5 {
+  animation: star--2 ease-in-out 9s -4.5s infinite;
+  background-color: #E8B142;
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  top: 15vw;
+  right: 17.5vw;
+}
+.star.star--6 {
+  animation: star--1 ease-in-out 6s -3s infinite;
+  background-color: #E8B142;
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  top: 5vw;
+  right: 28vw;
+}
+

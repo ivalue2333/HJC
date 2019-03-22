@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- css要产生随机数是很难的，最好的就是通过js来产生随机数，并注入到css -->
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    body {
+  background-color: #484BA0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+    #box {
+        position: absolute;
+        left: 40%;
+        top: 20%;
+    }
+
+    .star--1 {
+        animation: star--1 ease-in-out 10s -3s infinite;
+    }
+
+    .star--2 {
+        animation: star--2 ease-in-out 9s -3s infinite;
+    }
+
+    .star--3 {
+        animation: star--3 ease-in-out 10s -3s infinite;
+    }
+
+   .star--4 {
+        animation: star--4 ease-in-out 6s -3s infinite;
+    }
+
+    .meteor1 {
+        animation: meteor1 ease-in 6s -2s infinite;
+    }
+
+    .meteor2 {
+        animation: meteor2 ease-in 10s -5s infinite;
+    }
+
+    .meteor3 {
+        animation: meteor3 ease-in 8s -1s infinite;
+    }
+
+
+@keyframes star--1 {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(400px);
+  }
+}
+@keyframes star--2 {
+  0% {
+    opacity: 1;
+    transform: translate(-40px, -100px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-40px, 550px);
+  }
+}
+
+@keyframes star--3 {
+  0% {
+    opacity: 1;
+    transform: translate(-200px, -100px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-200px, 550px);
+  }
+}
+
+@keyframes star--4 {
+  0% {
+    opacity: 1;
+    transform: translate(-150px, -60px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-150px, 380px);
+  }
+}
+
+
+@keyframes meteor1 {
+  0% {
+    opacity: 1;
+    transform: translate(-1000px, -200px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(1800px, 800px);
+  }
+}
+
+@keyframes meteor2 {
+  0% {
+    opacity: 1;
+    transform: translate(-1250px, -250px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(1800px, 900px);
+  }
+}
+
+
+@keyframes meteor3 {
+  0% {
+    opacity: 1;
+    transform: translate(-1300px, -280px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(1900px, 900px);
+  }
+}
+
+
+
+
+    </style>
+</head>
+<body>
+
+<div id="box" align="center">
+    <canvas id="canvas1" class="star--1" width="20" height="20"></canvas>
+    <canvas width="20" height="20"></canvas>
+    <canvas id="canvas2" class="star--2" width="20" height="20"></canvas>
+    <canvas width="20" height="20"></canvas>
+    <canvas id="canvas3" class="star--3" width="20" height="20"></canvas>
+    <canvas width="20" height="20"></canvas>
+    <canvas id="canvas4" class="star--2" width="20" height="20"></canvas>
+    <canvas width="20" height="20"></canvas>
+    <canvas id="canvas5" class="star--4" width="20" height="20"></canvas>
+    <canvas width="20" height="20"></canvas>
+    <canvas id="canvas6" class="star--1" width="20" height="20"></canvas>
+
+    <canvas id="canvas7" class="star--2" width="20" height="20"></canvas>
+    <canvas width="20" height="20"></canvas>
+    <canvas id="canvas8" class="star--4" width="20" height="20"></canvas>
+    <canvas id="canvas9" class="star--1" width="20" height="20"></canvas>
+
+    <canvas id="canvas10" class="star--3" width="20" height="20"></canvas>
+    <canvas width="20" height="20"></canvas>
+    <canvas id="canvas11" class="star--2" width="20" height="20"></canvas>
+    <canvas id="canvas12" class="star--3" width="20" height="20"></canvas>
+    <canvas id="canvas13" class="star--1" width="20" height="20"></canvas>
+
+    <!-- 流星 -->
+    <canvas id="canvas14" class="meteor1" width="20" height="20"></canvas>
+    <canvas id="canvas15" class="meteor3" width="20" height="20"></canvas>
+    <canvas id="canvas16" class="meteor2" width="20" height="20"></canvas>
+    <canvas id="canvas17" class="meteor3" width="20" height="20"></canvas>
+    <canvas id="canvas18" class="meteor1" width="20" height="20"></canvas>
+    <canvas id="canvas19" class="meteor2" width="20" height="20"></canvas>
+    <canvas id="canvas20" class="meteor1" width="20" height="20"></canvas>
+    <canvas id="canvas21" class="meteor3" width="20" height="20"></canvas>
+
+</div>
+
+</body>
+<script>
+
+function draw_star(ctx, r_out, r_in, x_point, y_point) {
+    // 这个基于ctx现在的位置移动的, 是做的增加量
+    ctx.translate(x_point, y_point)
+    ctx.beginPath();
+    for (var i = 0; i < 5; i++) {
+        x1 = r_out * Math.cos((18 + i*72)/180*Math.PI);
+        y1 = r_out * Math.sin((18 + i*72)/180*Math.PI);
+        x2 = r_in * Math.cos((54 + i*72)/180*Math.PI);
+        y2 = r_in * Math.sin((54 + i*72)/180*Math.PI);
+        ctx.lineTo(x1, y1);
+        ctx.lineTo(x2, y2);
+    }
+
+    ctx.closePath();
+    ctx.fillStyle = '#ADFF2F';
+
+    ctx.fill();
+    // 下面是绘制边框
+    ctx.stroke();
+}
+
+function gen_star(id) {
+    var canvas = document.getElementById(id);
+    var ctx = canvas.getContext('2d');
+
+    w = canvas.width;
+    draw_star(ctx, w/2, w/2/2, w/2, w/2)
+}
+
+for (var i = 1; i < 100; i++) {
+    id = 'canvas' + i
+    gen_star(id)
+}
+
+
+
+
+
+</script>
+</html>

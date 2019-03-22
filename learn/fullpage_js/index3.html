@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>fullPage.js — 背景演示</title>
+    <link rel="stylesheet" href="css/fullpage.css">
+    <style>
+.section1 { background: url(images/1.jpg) 50%;}
+.section2 { background: url(images/2.jpg) 50%;}
+.section3 { background: url(images/3.jpg) 50%;}
+.section4 { background: url(images/4.jpg) 50%;}
+    </style>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script>
+$(function(){
+
+    new fullpage('#percy', {
+
+    })
+
+});
+    </script>
+</head>
+
+<body>
+
+<div id="percy">
+	<div class="section section1"></div>
+	<div class="section section2"></div>
+	<div class="section section3"></div>
+	<div class="section section4"></div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="star" width="500" height="500" style="border:1px solid;"></canvas><br /><br />
+
+<input type="button" value="随机显示五角星" onclick="canvs_start()" />
+</body>
+<script type="text/javascript">
+
+function canvs_start(){
+    var c = document.getElementById("star");
+    var co = c.getContext("2d");
+    co.fillStyle = "#006699";
+    co.fillRect(0,0,c.width,c.height);
+
+    for (var i = 0;i < 100;i++){
+
+         //随机大圆半径R
+         var cR = Math.random()*10+5;
+         var cx = Math.random()*c.width;
+         var cy = Math.random()*c.height;
+
+         //随机旋转角度
+        var ct = Math.random()*360;
+         star(co,cx,cy,cR,cR/2,ct);
+
+    }
+
+}
+
+
+//定义五角星函数，js中三角函数角度需要转换为弧度，canvs画布引用，x，y五角星偏移量，R五角星外接大圆半径，r五角星内接小圆半径，rot五角星整体旋转角度
+
+function star(canvs,x,y,R,r,rot){
+
+    canvs.beginPath();
+    for (var i = 0;i<5;i++){
+
+        canvs.lineTo(Math.cos((18+i*72-rot)/180*Math.PI)*R+x,-Math.sin((18+i*72-rot)/180*Math.PI)*R+y);
+        //此处的（18+i*72-rot）为五角星外顶点与中心水平线夹角度数（不是弧度，假设旋转角度rot为0，相当于正五角星），外顶点x坐标每次变化72度
+        //五角星外顶点（x,y）偏移量
+
+        canvs.lineTo(Math.cos((54+i*72-rot)/180*Math.PI)*r+x,-Math.sin((54+i*72-rot)/180*Math.PI)*r+y);
+        //此处的（54+i*72-rot）为五角星内顶点与中心水平线夹角度数（不是弧度，假设旋转角度rot为0，相当于正五角星），内顶点x坐标每次变化72度
+        //五角星内顶点（x,y）偏移量
+}
+
+canvs.closePath();
+
+//效果显示
+canvs.fillStyle = "#fd5";
+canvs.strokeStyle = "#fb5";
+canvs.lineWidth = 3;
+canvs.lineJoin = "round";
+
+//执行
+canvs.fill();
+canvs.stroke();
+
+}
+
+</script>
+</html>
