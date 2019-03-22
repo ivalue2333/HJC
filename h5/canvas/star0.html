@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="canvas" width="40" height="40"></canvas>
+</body>
+<script>
+
+function gen_star(ctx, r_out, r_in, x_point, y_point) {
+    // 这个基于ctx现在的位置移动的, 是做的增加量
+    ctx.translate(x_point, y_point)
+    ctx.beginPath();
+    for (var i = 0; i < 5; i++) {
+        x1 = r_out * Math.cos((18 + i*72)/180*Math.PI);
+        y1 = r_out * Math.sin((18 + i*72)/180*Math.PI);
+        x2 = r_in * Math.cos((54 + i*72)/180*Math.PI);
+        y2 = r_in * Math.sin((54 + i*72)/180*Math.PI);
+        ctx.lineTo(x1, y1);
+        ctx.lineTo(x2, y2);
+    }
+
+    ctx.closePath();
+    ctx.fillStyle = '#ADFF2F';
+
+    ctx.fill();
+    // 下面是绘制边框
+    ctx.stroke();
+}
+
+var canvas = document.getElementById('canvas');
+var ctx = canvas.getContext('2d');
+
+w = canvas.width;
+gen_star(ctx, w/2, w/2/2, w/2, w/2)
+
+
+
+</script>
+</html>
