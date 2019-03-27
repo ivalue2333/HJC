@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>Embedded</title>
+    <!
+        --设置进度条的颜色
+        设置进度条的高度
+        设定进度条跟随屏幕滚动
+        将进度条固定在页面顶部
+        提高进度条的优先层级，避免被其他层遮挡
+    -->
+    <style>
+
+    .loading{
+        background:#FF6100;
+        height:5px;
+        position:fixed;
+        top:0;
+        z-index:99999;
+    }
+
+    </style>
+    <script>
+        $(document).ready(function(){
+	        $('.loading').fadeOut();
+        });
+
+    </script>
+</head>
+<body>
+<div class="loading"></div>
+<div id="header">
+    页头部分
+</div>
+<script type="text/javascript">
+	$('.loading').animate({'width':'33%'},2000);  //第一个进度节点，时间可以小一点，我这里是为了看到效果
+</script>
+<div id="mainpage">
+    <img src="1.jpg" alt="">
+
+    左侧内容
+</div>
+<script type="text/javascript">
+	$('.loading').animate({'width':'55%'},2000);  //第二个进度节点
+</script>
+<div id="sider">
+    <img src="2.jpg" alt="">
+
+    右边侧栏
+</div>
+<script type="text/javascript">
+	$('.loading').animate({'width':'80%'},2000);  //第三个进度节点
+</script>
+<div id="footer">
+    页脚部分
+</div>
+<script type="text/javascript">
+	$('.loading').animate({'width':'100%'},2000);  //第四个进度节点
+</script>
+</body>
+</html>

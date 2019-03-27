@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+html, body {
+  margin: 0;
+  background-color: #03002E;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  max-width: 600px;
+  margin: auto;
+  padding: 5px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.content .column {
+  width: calc(33.33% - 10px);
+  height: 170px;
+  background-color: #040038;
+  margin: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.container .shape {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 1px;
+}
+
+.container.animation-5 .shape {
+  width: 15px;
+  height: 15px;
+}
+
+.container.animation-5 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+
+.container .shape.shape1 {
+  left: 0;
+  background-color: #5C6BC0;
+}
+.container .shape.shape2 {
+  right: 0;
+  background-color: #8BC34A;
+}
+.container .shape.shape3 {
+  bottom: 0;
+  background-color: #FFB74D;
+}
+.container .shape.shape4 {
+  bottom: 0;
+  right: 0;
+  background-color: #F44336;
+}
+
+.animation-5 .shape1 {
+  animation: animation5shape1 2s ease 0s infinite reverse;
+}
+.animation-5 .shape2 {
+  animation: animation5shape2 2s ease 0s infinite reverse;
+}
+.animation-5 .shape3 {
+  animation: animation5shape3 2s ease 0s infinite reverse;
+}
+.animation-5 .shape4 {
+  animation: animation5shape4 2s ease 0s infinite reverse;
+}
+
+
+@keyframes animation5shape1 {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  25% {
+    -webkit-transform: translate(0, 15px);
+            transform: translate(0, 15px);
+  }
+  50% {
+    -webkit-transform: translate(15px, 15px);
+            transform: translate(15px, 15px);
+  }
+  75% {
+    -webkit-transform: translate(15px, 0);
+            transform: translate(15px, 0);
+  }
+}
+
+@keyframes animation5shape2 {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  25% {
+    -webkit-transform: translate(-15px, 0);
+            transform: translate(-15px, 0);
+  }
+  50% {
+    -webkit-transform: translate(-15px, 15px);
+            transform: translate(-15px, 15px);
+  }
+  75% {
+    -webkit-transform: translate(0, 15px);
+            transform: translate(0, 15px);
+  }
+}
+
+@keyframes animation5shape3 {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  25% {
+    -webkit-transform: translate(15px, 0);
+            transform: translate(15px, 0);
+  }
+  50% {
+    -webkit-transform: translate(15px, -15px);
+            transform: translate(15px, -15px);
+  }
+  75% {
+    -webkit-transform: translate(0, -15px);
+            transform: translate(0, -15px);
+  }
+}
+
+@keyframes animation5shape4 {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  25% {
+    -webkit-transform: translate(0, -15px);
+            transform: translate(0, -15px);
+  }
+  50% {
+    -webkit-transform: translate(-15px, -15px);
+            transform: translate(-15px, -15px);
+  }
+  75% {
+    -webkit-transform: translate(-15px, 0);
+            transform: translate(-15px, 0);
+  }
+}
+
+
+    </style>
+</head>
+<body>
+<div class="content">
+    <div class="column">
+        <div class="container animation-5">
+            <div class="shape shape1"></div>
+            <div class="shape shape2"></div>
+            <div class="shape shape3"></div>
+            <div class="shape shape4"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

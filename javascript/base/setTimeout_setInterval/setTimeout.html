@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>setTimeout</title>
+    <script>
+        i = 1
+        function run() {
+            console.log(i)
+            i += 1
+            setTimeout(function(){ run() }, 1000)
+        }
+        run()
+    </script>
+</head>
+<body>
+setTimeout
+</body>
+</html>
